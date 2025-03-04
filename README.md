@@ -38,7 +38,7 @@ if err != nil {
 }
 fmt.Println(dst[:n])
 
-// or encode string 
+// or decode string 
 trg, err := base58.DecodeString("4ER")
 if err != nil {
     log.Fatal(err)

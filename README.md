@@ -1,5 +1,8 @@
 # base58
-Go wrap of https://github.com/moonlibs/base58/blob/master/libbase58.c
+Go wrap of https://github.com/moonlibs/base58/blob/master/libbase58.c created for [benchmark](https://github.com/Maximilan4/base58_benchmark_comparison)
+```
+Note: This is slow. Use better alternative instead.
+```
 ```shell
 go get github.com/Maximilan4/base58
 ```
